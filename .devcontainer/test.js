@@ -50,13 +50,30 @@ let negvalue = -value
 // console.log(2**2);
 // console.log(2%2);
 
-console.log("--------------------------");
-let str1 = "hello"
-let str2 = "aman"
-let str3 = str1+str2;
-console.log(str3);
-console.log(2+2);
-console.log(1+"2");
-console.log("1"+2);
-console.log(1+2+"2");
-console.log("1"+2+2);
+// console.log("--------------------------");
+// let str1 = "hello"
+// let str2 = "aman"
+// let str3 = str1+str2;
+// console.log(str3);
+// console.log(2+2);
+// console.log(1+"2");
+// console.log("1"+2);
+// console.log(1+2+"2");
+// console.log("1"+2+2);
+
+
+// stack(primitive) :- when we changing any value it will copy of the value.
+// Heap(Non-Primitive) :- when we changing any value the the refrence will change.
+
+// let firstVar = "oh my good"
+// let secondVar = firstVar
+// anotherVar = "ok"
+
+// console.log (let secondVar:string);
+// console.log(anotherVar);
+
+// let user={
+//     email="user@.com",
+//     upi="upi@ybl"
+// }
+// useTWo.email="haii aman"
