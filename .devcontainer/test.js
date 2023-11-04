@@ -77,3 +77,36 @@ let negvalue = -value
 //     upi="upi@ybl"
 // }
 // useTWo.email="haii aman"
+
+
+// String
+// charAt:-print Character
+// const aman = new String("welcome-aman")
+// console.log(aman[0]);
+// console.log(aman.__proto__);
+
+// console.log(aman.charAt(2));
+// console.log(aman.indexOf("t"));
+// console.log(aman.length());
+// console.log(aman.toUpperCase());
+
+// const newString = gName.substring(0,4);
+// console.log(newString);
+// const newString = gName.substring(-8,4);
+// console.log(newString);
+
+// const anString = new gName.slice(-8,4);
+// console.log(anString);
+
+// const anString = "  aman  "
+// console.log(anString);
+// console.log(anString.trim());
+
+// const url ="https://ranjan119.netlify.app"
+// console.log(url.replace('ranjan','aman'))
+
+// console.log(url.includes('ranjan','aman'))
+
+// console.log(gName.split('aman'));
+
+  
