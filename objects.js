@@ -32,6 +32,14 @@ const jsUser ={
 // // lock the value
 // Object.email=""
 
+// const tinderUser = new Object() // singletone object
+const tinderUser ={} // non singleton object
+console.log(tinderuser);
+tinderUser.id ="12jd"
+tinderUser.name= "aman"
+tinderUser.isLoggedIn= false
+//  console.log(tinderUser);
+
 
 const rguser={
     email:"aman@gmail.com",
@@ -51,5 +59,47 @@ const obj2 = {3:"a", 4:"b"}
 
 // const obj3={obj1,obj2} // it will print the like nasted object 
 // const obj3 =Object.assign({},obj1,obj2) // {} this sing will marge the all multipale object
-const obj3 = {...obj1, ...obj3}
+const obj3 = {...obj1, ...obj3}// it will same the marge the object that is called sprade object it will use every whare
+
 console.log(obj3);
+
+// array with object
+const user =[
+    {
+        id:1,
+        email:"aman@gmail.com"
+    },
+    {
+        id:1,
+        email:"aman@gmail.com"
+    },
+    {
+        id:1,
+        email:"aman@gmail.com"
+    },
+    {
+        id:1,
+        email:"aman@gmail.com"
+    }
+]
+user[1].email
+
+
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); 
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//  if we want to chack object property go to console in inspect
+// and enter the const obj1 ={1;"a",2:"b"} then print obj1 then go and check
+
+
+const course = {
+    cname: "hai js",
+    price: "5263",
+    cInstructor: "aman"
+}
+// course.cInstructor
+const{cInstructor}=course
+console.log(cInstructor);
