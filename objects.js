@@ -50,5 +50,6 @@ const obj1 = {1:"a", 2:"b"}
 const obj2 = {3:"a", 4:"b"}
 
 // const obj3={obj1,obj2} // it will print the like nasted object 
-const obj3 =Object.assign({},obj1,obj2) // {} this sing will marge the all multipale object
+// const obj3 =Object.assign({},obj1,obj2) // {} this sing will marge the all multipale object
+const obj3 = {...obj1, ...obj3}
 console.log(obj3);
