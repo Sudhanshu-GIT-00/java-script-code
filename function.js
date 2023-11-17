@@ -28,3 +28,29 @@ function loginUser(username = "aman"){
 }
 loginUser("aman")// nothing will print beacuse after return we dont print any thing
 // console.log(loginUser("raja")) //it will override the aman in function
+
+function calculateCartPrice(...num1){ // the tripple dot is rest oppretors and sprade opprators
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 500))
+const user = {
+    usName : "aman",
+    price:546
+}
+ function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.username}`);
+
+}
+
+// handleObject(user)
+handleObject({
+    usName:"aman",
+    price:698
+})
+const mynewarray = [200, 400, 500, 65500]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+ console.log(returnSecondValue(mynewarray));
+ console.log(returnSecondValue([200, 400, 500, 65500]));
+
