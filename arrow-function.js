@@ -39,3 +39,15 @@ chai()
 const addtwo = (num1, num2) => ( {uname:"aman"}) 
 console.log(addtwo(3,4))
 
+
+
+// imediately Invoked function Expression(IIFE)
+// iiFE IS Uesd avoid the poluation of globle scope and to excute imwditately function 
+(function chai(){
+    // named IIFE is chai
+    console.log(`DB CONNECTED`);
+})(); // and we used to semi colen; to end the function
+
+((name)=>{
+    console.log(`DB CONNECTED two${name}`);
+})('aman');
