@@ -18,3 +18,18 @@ if (true){
 console.log(a);
 console.log(b);
 console.log(c);
+
+
+// nested scope
+function one(){
+    const uname = "aman"
+
+    function two(){
+        const website = "yt"
+        console.log(uname);
+    }
+    // console.log(website); // error
+
+    two()
+}
+one()
