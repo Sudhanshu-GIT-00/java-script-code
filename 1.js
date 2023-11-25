@@ -21,7 +21,9 @@ const newnum = []
 mynums.forEach((num)=>{
     if(num > 4){
         newnum.push(num)
-    }
+    } 
 })
  console.log(newNums);
+
+ // basic end we start part 2 
 
