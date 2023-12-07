@@ -11,6 +11,18 @@
             "name": "http://127.0.0.1:3000/three.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/three.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/Four.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/Four.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3002/Four.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3002/Four.html"
         }
     ]
 }
