@@ -35,6 +35,12 @@
             "name": "http://127.0.0.1:3000/BMI-Calc/index.js",
             "request": "launch",
             "url": "http://127.0.0.1:3000/BMI-Calc/index.js"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/BMI-Calc/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/BMI-Calc/index.html"
         }
     ]
 }
